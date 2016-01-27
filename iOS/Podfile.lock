@@ -1,0 +1,21 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - FlatUIKit (1.6.2)
+  - GoogleMaps (1.11.1)
+  - Material (1.28.1)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift
+  - FlatUIKit
+  - GoogleMaps
+  - Material
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  GoogleMaps: c947160008f414c66707a5ea60f35e92055c7670
+  Material: 5ca840624a279ce4d02c4e1ef3059d1c0190b7f3
+
+COCOAPODS: 0.39.0
