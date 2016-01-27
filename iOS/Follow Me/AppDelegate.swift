@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     UINavigationBar.appearance().translucent = false
     UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.flatWhiteColor(), NSFontAttributeName: UIFont(name: "Helvetica Light", size: 18)!]
 
-    GMSServices.provideAPIKey("AIzaSyAYixsK-UOMUNdmIGkUDNPc-nmeeKvmYYw")
+    GMSServices.provideAPIKey("AIzaSyAYixsK-UOMUNdmIGkUDNPc-nmeeKvmYYw")    
     return true
   }
   

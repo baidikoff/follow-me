@@ -56,6 +56,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, GMSMapView
     mapView.camera = GMSCameraPosition.cameraWithLatitude(-33.86, longitude: 151.20, zoom: 6)
     mapView.myLocationEnabled = true
     mapView.settings.compassButton = true
+    
+    infoLabelBottomConstraint.constant = CGFloat(60.0)
+    mapViewBottomConstraint.constant = CGFloat(0.0)
+    view.layoutIfNeeded()
   }
   
   override func viewWillAppear(animated: Bool) {
